@@ -6,7 +6,7 @@
 
 #game{
     width: 90%;
-    height: 620px;
+    height: 90vw;
     border: 1px solid black;
     margin: 0 auto;
     position: relative;
