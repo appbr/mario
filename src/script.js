@@ -3,6 +3,7 @@ var game = window.document.getElementById('game')
 var pipe = window.document.getElementById('pipe')
 
 game.addEventListener('keydown', pular)
+game.addEventListener('touchstart', pular)
 
 function pular(){
     mario.classList.add('pular')
