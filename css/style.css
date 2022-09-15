@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#game{
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87ceeb, #E0F6FF);
+}
+
+#nuvem{
+    position: absolute;
+    width: 300px;
+    bottom: 200px;
+    animation: nuvem 10s infinite linear;
+}
+
+@keyframes nuvem{
+    from{
+        right: -300px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+#pipe{
+    position: absolute;
+    bottom: 0;
+    width: 35px;
+    animation: pipeA 1.5s infinite linear ;
+}
+
+#mario{
+    position: absolute;
+    width: 100px;
+    bottom: 0px;
+}
+
+.pular{
+    animation: mario 500ms ease-out;
+    
+}
+
+@keyframes mario {
+    0%{bottom: 0;}
+    40%{bottom: 200px;}
+    50%{bottom: 200px;}
+    100%{bottom: 0px;}
+    
+}
+
+@keyframes pipeA {
+    from{
+        right: -50px;
+    }
+    to{
+        right: 100%;
+    }
+}
