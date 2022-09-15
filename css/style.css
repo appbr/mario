@@ -5,10 +5,10 @@
 }
 
 #game{
-    width: 90%;
-    height: 90vw;
-    border: 1px solid black;
-    margin: 0 auto;
+    width: 50vmax;
+    height: 39vmax;
+    border-bottom: 15px solid rgb(35, 160, 35);
+    margin: auto;
     position: relative;
     overflow: hidden;
     background: linear-gradient(#87ceeb, #E0F6FF);
