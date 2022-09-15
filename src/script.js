@@ -30,7 +30,7 @@ var loop = setInterval(() => {
             mario.src = 'images/game-over.png';
             mario.style.width = '50px'
             mario.style.marginLeft = '30px'
-
+            // game.style.background = 'black';
 
             
             clearInterval(loop);
