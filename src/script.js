@@ -27,10 +27,10 @@ var loop = setInterval(() => {
             mario.style.animation = 'none';
             mario.style.bottom = `${marioPosition}px`;
 
-            mario.src = 'images/game-over.png';
+            mario.src = 'images/explosao.webp';
             mario.style.width = '50px'
             mario.style.marginLeft = '30px'
-            // game.style.background = 'black';
+            game.style.background = 'black'
 
             
             clearInterval(loop);
